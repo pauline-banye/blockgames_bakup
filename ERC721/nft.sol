@@ -21,7 +21,6 @@
         Counters.Counter private _tokenIdCounter;
 
         constructor (string memory baseURI) ERC721("PaulynNFT", "PBEE") {
-            // current metadata file "ipfs://Qmb5yC924NCHcK77RFTQr3QXeXZJsDzQPXmPEZjgfJSeJt/"
             _baseTokenURI = baseURI;
         }
 
