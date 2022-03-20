@@ -6,18 +6,7 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_owner",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_supply",
-						"type": "uint256"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -94,7 +83,7 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_stakeholder",
+						"name": "staker",
 						"type": "address"
 					}
 				],
@@ -173,6 +162,70 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "buyer",
+						"type": "address"
+					}
+				],
+				"name": "buyToken",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_stakeholder",
+						"type": "address"
+					}
+				],
+				"name": "calculateReward",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "combinedRewards",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "combinedStake",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "_stake",
 						"type": "uint256"
@@ -221,6 +274,13 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "distributeRewards",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -248,7 +308,7 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_address",
+						"name": "stakeholder_address",
 						"type": "address"
 					}
 				],
@@ -295,10 +355,36 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "rate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_stake",
+						"type": "uint256"
+					}
+				],
+				"name": "removeStake",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_stakeholder",
+						"name": "staker",
 						"type": "address"
 					}
 				],
@@ -318,7 +404,39 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_stakeholder",
+						"name": "staker",
+						"type": "address"
+					}
+				],
+				"name": "rewardOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newRate",
+						"type": "uint256"
+					}
+				],
+				"name": "setRate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "staker",
 						"type": "address"
 					}
 				],
@@ -341,19 +459,6 @@
 						"internalType": "string",
 						"name": "",
 						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "totalStakes",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -550,11 +655,11 @@
 			]
 		},
 		"STAKING/vesting.sol": {
-			"keccak256": "0xd5a58a5b70f5729fa340358a66dbba9524ea19e0bf67ebd42f23ddb295459a63",
+			"keccak256": "0x299797955c20a87815660046610c3387a4e11a2354805e116ea729e08b73e779",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://dda44b1f7430a8b7d563c75419069ce6fbb1e1b1bde4e5e4aa678cbd160a19c6",
-				"dweb:/ipfs/QmbaUF2hNvEBaNK2qz372758EhCAQvViwZNU1LeS7gNjZh"
+				"bzz-raw://9f6563b83ec38acdc008b4da8e04a04e55be34d1094dc0c1e4543dd9236d5eb0",
+				"dweb:/ipfs/QmQkshbBsPGE56UbydevZzVVTz7Y5AJdpA91FCX7pkHWFz"
 			]
 		},
 		"openzeppelin-solidity/contracts/utils/math/SafeMath.sol": {

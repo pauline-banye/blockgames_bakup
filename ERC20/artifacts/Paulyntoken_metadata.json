@@ -341,7 +341,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ERC20/token.sol": "Paulyntoken"
+			"ERC20/token_flat.sol": "Paulyntoken"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -355,44 +355,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"@openzeppelin/contracts/token/ERC20/ERC20.sol": {
-			"keccak256": "0xdadd41acb749920eccf40aeaa8d291adf9751399a7343561bad13e7a8d99be0b",
+		"ERC20/token_flat.sol": {
+			"keccak256": "0x2dbd7c986a0717e73c5076258655454cb5877aede7777a37348cc5e650e2b7e3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://12af4ac016f9fdf3be5d15824f4292272aa11f6b2e0192a0f7320f5ad49bbbf0",
-				"dweb:/ipfs/QmRXMpdqCgA3TYuYxBodqs5p9jGbnMW6xa2gvjppvq4TWk"
-			]
-		},
-		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
-			"keccak256": "0xbbc8ac883ac3c0078ce5ad3e288fbb3ffcc8a30c3a98c0fda0114d64fc44fca2",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://87a7a5d2f6f63f84598af02b8c50ca2df2631cb8ba2453e8d95fcb17e4be9824",
-				"dweb:/ipfs/QmR76hqtAcRqoFj33tmNjcWTLrgNsAaakYwnKZ8zoJtKei"
-			]
-		},
-		"@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
-			"keccak256": "0x8de418a5503946cabe331f35fe242d3201a73f67f77aaeb7110acb1f30423aca",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://5a376d3dda2cb70536c0a45c208b29b34ac560c4cb4f513a42079f96ba47d2dd",
-				"dweb:/ipfs/QmZQg6gn1sUpM8wHzwNvSnihumUCAhxD119MpXeKp8B9s8"
-			]
-		},
-		"@openzeppelin/contracts/utils/Context.sol": {
-			"keccak256": "0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://6df0ddf21ce9f58271bdfaa85cde98b200ef242a05a3f85c2bc10a8294800a92",
-				"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3"
-			]
-		},
-		"ERC20/token.sol": {
-			"keccak256": "0x1f86b6d1a22798da645bd2274293bd825c6eb0d99937a071972cd86b47decde4",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://112b4727657353be73ab391e96b846edfee7dc755076d0cba45093504362a2ef",
-				"dweb:/ipfs/Qmdnda9tUFith7thKzs4ybH9WQ3jq7bjTf8xQUEVgueagP"
+				"bzz-raw://9006c2c87bc12e9e896aad11944135d40301b6e4512f688426baa0044540b149",
+				"dweb:/ipfs/Qmb9ckPaXcYRswa1pw5Eh3z8VhRtgUcSmAPK9CaTR5V8FL"
 			]
 		}
 	},

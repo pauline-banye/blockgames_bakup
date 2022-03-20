@@ -6,18 +6,7 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_owner",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_supply",
-						"type": "uint256"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -155,6 +144,24 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "buyToken",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -400,7 +407,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"STAKING/vesting.sol": "LynnToken"
+			"STAKING/v1.sol": "LynnToken"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -454,12 +461,12 @@
 				"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3"
 			]
 		},
-		"STAKING/vesting.sol": {
-			"keccak256": "0xa9a9ad583c7d57585a6370113cfc628f945eaa49a2533a4d3a3f13f04fd04f1b",
+		"STAKING/v1.sol": {
+			"keccak256": "0x7e1a8c74448366ea803eab472f0d1b3de50837dae67c1ec0560409e375ea7c57",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fff848339811ba24b7375b24ef7c896d1a2052e04be977ed7162940afd1ba4a2",
-				"dweb:/ipfs/QmRP1G2tT8EBEgePkDx2FGxBhZbdyWjmztCBMg97gK5mS4"
+				"bzz-raw://379ba7f422bdf1b240f2da9d391a42c8586dffb5fd22e8d1d14fcc2f66a6776a",
+				"dweb:/ipfs/QmcXih1cD6n7AvY6z4wx2d2w7QF3xYsGwtcn5CMQSjjaoF"
 			]
 		},
 		"openzeppelin-solidity/contracts/utils/math/SafeMath.sol": {

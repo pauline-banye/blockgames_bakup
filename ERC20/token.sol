@@ -10,8 +10,8 @@ contract Paulyntoken is ERC20 {
     
     constructor() ERC20 ("Paulyntoken", "PNT") {
         rate = 1000;
-        FixedSupply = 1000000 * 10 ** 18;
-        _mint(msg.sender, 5000 *10 ** 18);
+        FixedSupply = 1000000 * 10 ** decimals();
+        _mint(msg.sender, 5000 * 10 ** decimals());
     }
 
     function buyToken(address receiver) public payable {
